@@ -13,7 +13,12 @@ public class Student {
     public String GetName(){
         return Name;
     }
-    public String GetDepartment(){
-        return Department;
+    public void Listens(String subject){
+        System.out.println("Student listens the subject :" + subject);
+
+    }
+    public String TakeNotes(String note){
+
+        return "My note : " + note;
     }
 }
